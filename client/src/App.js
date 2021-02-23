@@ -3,6 +3,8 @@ import axios from "axios";
 import logo from './logo.svg';
 import './app.css';
 import { response } from "express";
+import Footer from "./components/Footer";
+
 
 function App() {
     useEffect (() => {
