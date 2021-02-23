@@ -7,10 +7,7 @@ import Footer from "./components/Footer";
 
 
 function App() {
-    useEffect (() => {
-        axios.get("/api/config").then(response =)
-    }, [])
-}
+
 
 
 return (
