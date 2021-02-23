@@ -4,19 +4,23 @@ import logo from './logo.svg';
 import './app.css';
 import { response } from "express";
 import Footer from "./components/Footer";
-
+import Navbar from "./components/Navbar";
 
 function App() {
 
 
 
-return (
-    <div className="App">
-     <header className="App-header">
-    <img src={logo} className="app-logo" alt="logo" />
-    <p>
-        Edit <code>src/App.js</code> and save to reload.
-    </p>
-     </header>
-    </div>
-)
+    function App() {
+        return (
+          <div>
+            <Navbar />
+           
+            
+          
+            <Footer />
+          </div>
+        );
+      }
+      
+      export default App;
+      
